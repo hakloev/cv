@@ -1,0 +1,219 @@
+%%% LaTeX Template: Designer's CV
+%%%
+%%% Source: http://www.howtotex.com/
+%%% Feel free to distribute this template, but please keep the referal to HowToTeX.com.
+%%% Date: March 2012
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document properties and packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt,final]{memoir}
+
+% misc
+\renewcommand{\familydefault}{bch}	% font
+\pagestyle{empty}					% no pagenumbering
+\setlength{\parindent}{0pt}			% no paragraph indentation
+
+
+% required packages (add your own)
+\usepackage{flowfram}										% column layout
+\usepackage[top=1cm,left=1cm,right=1cm,bottom=1cm]{geometry}% margins
+\usepackage{graphicx}										% figures
+\usepackage{url}	
+\usepackage[utf8]{inputenc}
+% URLs
+\usepackage[usenames,dvipsnames]{xcolor}					% color
+\usepackage{paralist}										% compact lists
+\usepackage{multicol}                                       % columns env.
+    \setlength{\multicolsep}{0pt}
+\usepackage{tikz}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create column layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define length commands
+\setlength{\vcolumnsep}{\baselineskip}
+\setlength{\columnsep}{\vcolumnsep}
+
+% frame setup (flowfram package)
+% left frame
+\newflowframe{0.2\textwidth}{\textheight}{0pt}{0pt}[left]
+	\newlength{\LeftMainSep}
+	\setlength{\LeftMainSep}{0.2\textwidth}
+	\addtolength{\LeftMainSep}{1\columnsep}
+ 
+% small static frame for the vertical line
+\newstaticframe{1.5pt}{\textheight}{\LeftMainSep}{0pt}
+ 
+% content of the static frame
+\begin{staticcontents}{1}
+\hfill
+\tikz{%
+	\draw[loosely dotted,color=RoyalBlue,line width=1.5pt,yshift=0]
+	(0,0) -- (0,\textheight);}%
+\hfill\mbox{}
+\end{staticcontents}
+ 
+% right frame
+\addtolength{\LeftMainSep}{1.5pt}
+\addtolength{\LeftMainSep}{1\columnsep}
+\newflowframe{0.7\textwidth}{\textheight}{\LeftMainSep}{0pt}[main01]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define macros (for convience)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Sep}{\vspace{1.5em}}
+\newcommand{\SmallSep}{\vspace{0.5em}}
+
+\newenvironment{Ommeg}
+	{\ignorespaces\textbf{\color{RoyalBlue} Om meg}}
+	{\Sep\ignorespacesafterend}
+	
+\newcommand{\CVSection}[1]
+	{\Large\textbf{#1}\par
+	\SmallSep\normalsize\normalfont}
+
+\newcommand{\CVItem}[1]
+	{\textbf{\color{RoyalBlue} #1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% Left frame
+%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\hfill
+	\includegraphics[width=0.6\columnwidth]{photo.jpg}
+	\vspace{-7cm}
+\end{figure}
+
+\begin{flushright}\small
+	Håkon Ø. Løvdal \\
+	\url{me@hakloev.no}  \\
+	\url{https://hakloev.no} \\
+	+47 940 50 008
+\end{flushright}\normalsize
+\framebreak
+
+
+% Right frame
+%%%%%%%%%%%%%%%%%%%%
+\Huge\bfseries {\color{RoyalBlue} Håkon Ødegård Løvdal} \\
+\Large\bfseries  Informatikkstudent \\
+
+\normalsize\normalfont
+
+% About me
+\begin{Ommeg}
+Er positiv og endringsvillig. Anser meg selv som utadvendt. Lærer raskt og jobber godt både selvstendig og med andre. Tar ansvar for egen læring og er god til å anvende ny kunnskap. Har erfaring med ledelse av grupper og store mengder med materiell. 
+\end{Ommeg}
+
+% Education
+\CVSection{Utdanning}
+\CVItem{2012 - nå, Norges teknisk-naturvitenskaplige universitet}\\
+Bachelor i informatikk
+\SmallSep
+
+\CVItem{2008 - 2011, Nøtterøy Videregående Skole}\\
+Språk, samfunnsfag og økonomi
+\Sep
+
+% Experience
+\CVSection{Arbeidserfaring}
+\CVItem{Sommer 2013 og 2014, Spar Tjøme}\\
+\textit{Varelassleder}, ansvar for butikkstandard, kundebehandling, varepåfylling og annet forefallende butikkarbeid.
+\SmallSep
+
+\CVItem{2011 - 2012, Forsvaret, Hæren}\\
+\textit{Visekorporal, nestlagfører}, ansvarlig for utstyrskontroll over troppsmatriell og ledelse av matriellag. Fungerte også som stormingeniør.
+\SmallSep
+
+\CVItem{2009 - 2011, Rimi Tjøme}\\
+\textit{Skiftleder}, ansvar for butikkstandard, kundebehandling, varepåfylling og annet forefallende butikkarbeid. Fungerte også som butikksjefs stedfortreder.
+\Sep
+
+% Verv
+\CVSection{Verv}
+\CVItem{2013 - nå, Online, linjeforeningen for informatikk}\\
+\textit{Komitémedlem - Ekskursjonskomiteen}, Ekskursjonskomiteen har ansvaret for å arrangere informatikkstudentene i tredje årstrinn sin årlige ekskursjon. Ekskursjonen er av akademisk grad og går gjerne til et sted av utenlandsk opprinnelse hvor næringsliv og utdanningsinstitusjoner blir besøkt.
+\SmallSep
+
+\CVItem{2013 - nå, Online, linjeforeningen for informatikk}\\
+\textit{Komitémedlem - Bank- og økonomikomiteen}, Bank- og økonomikomiteen er ansvarlig for alt det økonomiske innad i Online. Dette består av regnskapsøring, fakturering og å ha kontroll på det som skjer i nettbanken. Representant for Fag- og kurskomiteen.
+\SmallSep
+
+\CVItem{2012 - nå, Online, linjeforeningen for informatikk}\\
+\textit{Komitémedlem - Fag- og kurskomiteen}, Fag- og kurskomiteen jobber med å arrangere kurs, workshop, faglige presentasjoner og andre faglige arrangementer for studentene ved informatikk.
+\Sep
+
+\clearpage
+\framebreak
+\framebreak
+
+% Skills
+\CVSection{Kompetanse}
+
+\CVItem{Nøkkelkvalifikasjoner}
+\begin{multicols}{3}
+\begin{compactitem}[\color{RoyalBlue}$\circ$]
+    \item Endringsvillig 
+    \item Utadvendt
+    \item Selvstendig
+    \item Tar ansvar
+    \item Positiv
+    \item Lærer raskt
+\end{compactitem}
+\end{multicols}
+\SmallSep
+
+\CVItem{Plattformer}
+\begin{multicols}{3}
+\begin{compactitem}[\color{RoyalBlue}$\circ$]
+    \item OS X 
+    \item Linux
+    \item Unix/FreeBSD
+\end{compactitem}
+\end{multicols}
+\SmallSep
+
+\CVItem{Datakompetanse}
+\begin{multicols}{3}
+\begin{compactitem}[\color{RoyalBlue}$\circ$]
+	\item Python 
+	\item Java
+	\item Latex 
+	\item HTML
+	\item CSS
+	\item nginx 
+	\item MySQL 
+	\item Microsoft Office
+\end{compactitem}
+\end{multicols}
+\SmallSep 
+
+\CVItem{Interesser}
+\begin{multicols}{3}
+\begin{compactitem}[\color{RoyalBlue}$\circ$]
+	\item Politikk 
+	\item Historie
+	\item Ølbrygging 
+	\item Musikk
+	\item Trening
+	\item Venner
+	\item Linjeforeningen
+\end{compactitem}
+\end{multicols}
+\Sep 
+
+% References
+\CVSection{Referenaser}
+Referanser oppgis ved behov
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
