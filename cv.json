@@ -115,7 +115,7 @@
       "endDate": "2011-08-15",
       "summary": "Part-time work alongside school. Responsiblities includes customer service, refilling merchandise and overlook general store standards",
       "highlights": []
-    },
+    }
   ],
   "volunteer": [
     {
@@ -144,11 +144,11 @@
       "endDate": "2015-06-01",
       "summary": "Responsible for the the academic seminar, Tech Talks",
       "highlights": []
-    },
+    }
   ],
   "education": [
     {
-      "institution": "Norwegian University of Science and Technology\"",
+      "institution": "Norwegian University of Science and Technology",
       "area": "Informatics",
       "studyType": "Master",
       "startDate": "2015-08-12",
@@ -157,7 +157,7 @@
       "courses": []
     },
     {
-      "institution": "Norwegian University of Science and Technology\"",
+      "institution": "Norwegian University of Science and Technology",
       "area": "Informatics",
       "studyType": "Bachelor",
       "startDate": "2012-08-12",
@@ -173,7 +173,7 @@
       "endDate": "2011-06-15",
       "courses": [
       ]
-    },
+    }
   ],
   "awards": [],
   "publications": [],
