@@ -1,4 +1,4 @@
 cv
 ==
 
-Repo for hosting CV based on template from ShareLatex
+Repo for hosting CV
