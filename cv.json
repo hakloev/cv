@@ -1,0 +1,230 @@
+{
+  "basics": {
+    "name": "Håkon Ødegård Løvdal",
+    "label": "Programmer",
+    "picture": "",
+    "email": "me@hakloev.no",
+    "phone": "+47 940 50 008",
+    "website": "https://hakloev.no",
+    "summary": "",
+    "location": {
+      "address": "Klæbuveien 124",
+      "postalCode": "7031",
+      "city": "TRONDHEIM",
+      "countryCode": "NO",
+      "region": "Sør-Trøndelag"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "hakloevdal",
+        "url": ""
+      },
+      {
+        "network": "GitHub",
+        "username": "hakloev",
+        "url": ""
+      },
+      {
+        "network": "LinkedIn",
+        "username": "hakloev",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Norwegian University of Science and Technology",
+      "position": "Teaching Assistant",
+      "website": "http://ntnu.edu",
+      "startDate": "2016-08-15",
+      "endDate": "",
+      "summary": "Teaching assistant in the course IT2805, Web Technologies. Responsible for grading exercises and help students with academic challenges",
+      "highlights": []
+    },
+    {
+      "company": "Bekk Consulting AS",
+      "position": "Summer Intern",
+      "website": "https://bekk.no",
+      "startDate": "2016-06-13",
+      "endDate": "2016-07-29",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Norwegian University of Science and Technology",
+      "position": "Student Assistant",
+      "website": "http://ntnu.edu",
+      "startDate": "2016-01-18",
+      "endDate": "2016-04-30",
+      "summary": "Student assistant in the course TDT4186, Operating Systems.  Responsible for grading exercises and help students with academic challenges",
+      "highlights": []
+    },
+    {
+      "company": "Norwegian University of Science and Technology",
+      "position": "Teaching Assistant",
+      "website": "http://ntnu.edu",
+      "startDate": "2015-08-15",
+      "endDate": "2015-12-10",
+      "summary": "Teaching assistant in the course IT2805, Web Technologies. Responsible for grading exercises and help students with academic challenges",
+      "highlights": []
+    },
+    {
+      "company": "Norwegian Tax Administration",
+      "position": "Summer Intern",
+      "website": "http://skatteetaten.no",
+      "startDate": "2015-06-15",
+      "endDate": "2015-08-15",
+      "summary": "",
+      "highlights": [
+        "Developed a Proof of Concept for autentication on a new Intranet"
+      ]
+    },
+    {
+      "company": "Norwegian University of Science and Technology",
+      "position": "Student Assistant",
+      "website": "http://ntnu.edu",
+      "startDate": "2015-01-15",
+      "endDate": "2015-04-30",
+      "summary": "Student assistant in the course TDT4180, Human-Computer Interaction. Responsible for grading exercises and help students with academic challenges",
+      "highlights": []
+    },
+    {
+      "company": "Spar Tjøme",
+      "position": "Shift Team Leader",
+      "website": "https://spar.no",
+      "startDate": "2013-06-01",
+      "endDate": "2014-08-15",
+      "summary": "Part-time work during school vacations. Responsiblities includes customer service, refilling merchandise and overlook general store standards",
+      "highlights": []
+    },
+    {
+      "company": "Rimi Tjøme",
+      "position": "Shift Team Leader",
+      "website": "https://rimi.no",
+      "startDate": "2009-06-01",
+      "endDate": "2011-08-15",
+      "summary": "Part-time work alongside school. Responsiblities includes customer service, refilling merchandise and overlook general store standards",
+      "highlights": []
+    },
+  ],
+  "volunteer": [
+    {
+      "organization": "Student Organization, Online",
+      "position": "Academic Courses Committee",
+      "website": "https://online.ntnu.no/",
+      "startDate": "2012-08-31",
+      "endDate": "",
+      "summary": "Responsible for arranging academic courses, workshops and other academic activities for students",
+      "highlights": []
+    },
+    {
+      "organization": "Student Organization, Online",
+      "position": "Banking and Finance Committee",
+      "website": "https://online.ntnu.no/",
+      "startDate": "2014-03-01",
+      "endDate": "2016-01-31",
+      "summary": "Responsible for the finance of the academic courses committee.",
+      "highlights": []
+    },
+    {
+      "organization": "Student Organization, Online",
+      "position": "Excursion Committee",
+      "website": "https://online.ntnu.no/",
+      "startDate": "2014-09-01",
+      "endDate": "2015-06-01",
+      "summary": "Responsible for the the academic seminar, Tech Talks",
+      "highlights": []
+    },
+  ],
+  "education": [
+    {
+      "institution": "Norwegian University of Science and Technology\"",
+      "area": "Informatics",
+      "studyType": "Master",
+      "startDate": "2015-08-12",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Norwegian University of Science and Technology\"",
+      "area": "Informatics",
+      "studyType": "Bachelor",
+      "startDate": "2012-08-12",
+      "endDate": "2015-06-15",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Nøtterøy Videregående skole",
+      "area": "Languages, social sciences and economics",
+      "studyType": "High school",
+      "startDate": "2008-08-15",
+      "endDate": "2011-06-15",
+      "courses": [
+      ]
+    },
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Working Knowledge",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "ECMAScript 6",
+        "Django",
+        "React"
+      ]
+    },
+    {
+      "name": "Development",
+      "level": "Working Knowledge",
+      "keywords": [
+        "Python",
+        "Java",
+        "Javascript",
+        "Swift",
+        "Objective-C"
+      ]
+    },
+    {
+      "name": "*nix systems",
+      "level": "Working knowledge",
+      "keywords": [
+        "Debian",
+        "Bash",
+        "nginx"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Norwegian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent, written and spoken"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hiking",
+      "keywords": []
+    },
+    {
+      "name": "Brewing",
+      "keywords": []
+    },
+    {
+      "name": "History",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
