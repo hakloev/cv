@@ -10,7 +10,7 @@ pipeline:
     deploy:
         image: drillster/drone-rsync
         user: hakloev
-        host: hakloev.no
+        hosts: [ "hakloev.no" ]
         port: 723
         source: out/
         target: /srv/cv/
