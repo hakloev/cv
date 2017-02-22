@@ -35,10 +35,19 @@
   "work": [
     {
       "company": "Norwegian University of Science and Technology",
+      "position": "Student Assistant",
+      "website": "http://ntnu.edu",
+      "startDate": "2017-01-15",
+      "endDate": "",
+      "summary": "Student assistant in the course TDT4186, Operating Systems.  Responsible for grading exercises and help students with academic challenges",
+      "highlights": []
+    },
+    {
+      "company": "Norwegian University of Science and Technology",
       "position": "Teaching Assistant",
       "website": "http://ntnu.edu",
       "startDate": "2016-08-15",
-      "endDate": "",
+      "endDate": "2016-12-10",
       "summary": "Teaching assistant in the course IT2805, Web Technologies. Responsible for grading exercises and help students with academic challenges",
       "highlights": []
     },
