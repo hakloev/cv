@@ -8,7 +8,7 @@ pipeline:
             - fluentcv BUILD cv.json TO out/cv.all -t node_modules/jsonresume-theme-simplistic
             - echo "Deploying"
     deploy:
-        image: plugins/rsync
+        image: drillster/drone-rsync
         user: hakloev
         host: hakloev.no
         port: 723
