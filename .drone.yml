@@ -1,0 +1,23 @@
+pipeline:
+    build:
+        image: node:7-slim
+        pull: true
+        commands:
+            - npm install fluentcv -g --silent
+            - npm install jsonresume-theme-simplistic --silent
+            - fluentcv BUILD cv.json TO out/cv.all -t node_modules/jsonresume-theme-simplistic
+            - echo "Deploying"
+    deploy:
+        rsync:
+            user: hakloev
+            host: hakloev.no
+            port: 723
+            source: out/
+            target: /srv/cv/
+            delete: false
+            recursive: true
+            exclude:
+            when:
+                branch: master
+            script:
+                - echo "Done"
