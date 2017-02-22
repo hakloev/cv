@@ -11,6 +11,7 @@ pipeline:
         image: drillster/drone-rsync
         user: hakloev
         hosts: [ "hakloev.no" ]
+        key: ${SSH_KEY}
         port: 723
         source: out/
         target: /srv/cv/
